@@ -61,7 +61,9 @@ const LoginAdmin = () => {
     <section>
         <Row>
         <Col xs={6}>
-          <ToastContainer className="p-3" position="top-center">
+          <ToastContainer className="p-3"
+           position="top-end"
+           >
             {[{bgToast}].map((variant, idx) => (
               <Toast
                 className="d-inline-block m-1"

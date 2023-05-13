@@ -10,8 +10,7 @@ const Carlist = ({  }) => {
   const [cars, setCars] = useState([]);
   const dispatch = useDispatch();
   const viewcar = useSelector(state => state.viewstore.cruddata)
-  // const [pagesize,setPageSize] = useState (10)
-  //   const [page,setPage] = useState (1)
+
     const [carSmall,setSmall] = useState()
     // const handleCarSmall = (ev) =>{
     //   ev.preventDefault()

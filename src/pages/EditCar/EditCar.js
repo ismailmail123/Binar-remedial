@@ -30,16 +30,6 @@ const EditCar = () => {
 
     })
 
-    // const [name, setName] = useState('');
-    // const [category, setCategory] = useState('');
-    // const [price, setPrice] = useState('');
-    // const [status, setStatus] = useState('');
-    // const [image, setImage] = useState('');
-
-            // setName(dataEdit.name);
-        // setCategory(dataEdit.category);
-        // setPrice(dataEdit.price);
-        // setStatus(dataEdit.status);
     
     
     const handleName = (e) => {
