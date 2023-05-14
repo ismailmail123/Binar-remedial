@@ -40,12 +40,10 @@ const Carditem = () => {
             .unwrap()
             .then(() => {
                 alert("succes tambah mobil")
-                // setBgToast ('info') setShowMsg ('Berhasil Login') setIsToastShow (true);
-                // setTimeout(() => {   navigate("/login") }, 2000);
+
             })
             .catch((error) => {
-                // setBgToast ('danger') setShowMsg ('Silahkan di cek kembali email')
-                // setIsToastShow(true);
+
                 alert("gagal")
 
             });
